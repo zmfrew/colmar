@@ -51,7 +51,7 @@ section.top {
 }
 
 img.top-container {
-  width: 50%;
+  width: 60%;
   padding: 2rem 1.5rem 2rem 1.5rem;
   height: auto;
 }
@@ -87,4 +87,92 @@ span.button {
   padding: 0.5rem;
   font-size: 1.2rem;
   line-height: 2rem;
+}
+
+/* Section 2 design */
+
+.second-section {
+  display: inline-flex;
+  background-color: rgb(251, 250, 250);
+}
+
+.second-containers {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.second-container img {
+  width: 100%;
+  padding: 2rem 1.5rem 2rem 1.5rem;
+  height: auto;
+}
+
+.second-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 65%;
+  width: 100%;
+}
+
+.second {
+  display: flex;
+}
+
+h1.second {
+  padding: 2rem 0 1.5rem 0;
+}
+
+.second-container span.title-text {
+  font-size: 1.25rem;
+}
+
+aside {
+  width: 423px;
+  padding-top: 2rem;
+}
+
+.side-container {
+  display: flex;
+  padding-bottom: 2.87rem;
+  margin-left: 4rem;
+  width: 100%;
+}
+
+.side-container img {
+  width: 190px;
+  height: 60%;
+}
+
+.side-right {
+  padding: 1.5rem 0 1.5rem 1.5rem;
+}
+
+img.second-picture {
+  width: 100%;
+  padding: 2rem 1.5rem 2rem 1.5rem;
+  height: auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 100%;
+  color: rgb(55, 54, 54);
+  padding-bottom: 0.5rem;
+}
+
+h2 + span {
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.side-button {
+  color: rgb(124, 181, 255);
+}
+
+#third-side-container {
+  background-color: rgb(199, 199, 199);
 }
