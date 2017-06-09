@@ -220,3 +220,52 @@ a.side-button:hover {
 #third-side-container {
   background-color: rgb(199, 199, 199);
 }
+
+/* Section 3 Design */
+
+.third-section {
+  background-color: rgb(241, 241, 240);
+}
+
+.major-offerings {
+  text-align: center;
+  padding-top: 2rem auto;
+}
+
+.major-selection {
+  display: flex;
+  flex-basis: 80%;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.majors {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  margin: 1rem;
+  background-color: white;
+}
+
+.major {
+  height: 50%;
+}
+
+img {
+  height: 50%;
+}
+
+h3 {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+h6 {
+  padding: 0.5rem 1rem;
+}
+
+p {
+  padding: 0.5rem 1rem;
+}
