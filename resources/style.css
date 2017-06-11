@@ -1,3 +1,7 @@
+body {
+font-family: 'Cabin', sans-serif;
+}
+
 /* Header formatting */
 header {
   position: fixed;
@@ -11,6 +15,7 @@ header {
 
 img.logo {
   padding-left: 1.5rem;
+  height: 4rem;
 }
 
 a.title {
@@ -247,9 +252,10 @@ a.side-button:hover {
 .majors {
   display: flex;
   flex-direction: column;
-  width: 28%;
+  width: 26%;
   margin: 1rem;
   background-color: white;
+  height: 20rem;
 }
 
 .major {
@@ -272,6 +278,7 @@ h6 {
 
 p {
   padding: 0.5rem 1rem;
+  line-height: 1.3rem;
 }
 
 /* Section 4 Design */
@@ -292,6 +299,7 @@ p {
 
 video {
   width: 55%;
+  pointer-events: none;
 }
 video.side-picture {
   width: 100%;
@@ -300,6 +308,7 @@ video.side-picture {
 
 .fourth-section-aside {
   border: none;
+  display: block;
 }
 
 .side-containers.fourth-side {
