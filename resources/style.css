@@ -21,6 +21,7 @@ img.logo {
 a.title {
   color: rgb(55, 54, 54);
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 span.academy {
@@ -43,7 +44,7 @@ nav {
 
 span.gap {
   width: 1.5rem;
-  background-color: rgb(175, 225, 237);
+  background-color: rgb(132, 209, 209);
   height: 4rem;
 }
 
@@ -157,6 +158,7 @@ h1.second {
 
 .second-container span.title-text {
   font-size: 1.25rem;
+  line-height: 1.4;
 }
 
 aside {
