@@ -241,6 +241,7 @@ a.side-button:hover {
   flex-wrap: wrap;
   flex-grow: 1;
   justify-content: center;
+  padding-bottom: 2rem;
 }
 
 .majors {
@@ -274,6 +275,58 @@ p {
 }
 
 /* Section 4 Design */
+.fourth-title {
+  background-color: rgb(251, 250, 250);
+  padding: 2rem;
+  text-align: center;
+}
+
 #first-side-container {
   background-color: rgb(199, 199, 199);
+  border: none;
+}
+
+#second-side-container {
+  border: none;
+}
+
+video {
+  width: 55%;
+}
+video.side-picture {
+  width: 100%;
+  padding-left: 1.5rem;
+}
+
+.fourth-section-aside {
+  border: none;
+}
+
+.side-containers.fourth-side {
+  border: none;
+}
+
+/* Footer Design */
+footer {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  border-top: 0.5px solid lightgray;
+  background-color: rgb(251, 250, 250);
+}
+
+footer a {
+  padding: 0.5rem;
+}
+
+a.buttons {
+  transition-property: background-color;
+  transition-duration: 400ms;
+  transition-delay: 100ms;
+}
+
+a.buttons:hover {
+  background-color: rgb(55, 54, 54);
+  color: rgb(251, 250, 250);
+  font-weight: bold;
 }
