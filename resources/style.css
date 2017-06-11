@@ -43,8 +43,11 @@ span.gap {
 }
 
 nav a:hover {
-  font-weight: bold;
-  color: rgb(193, 186, 186);
+  color: white;
+  height: 4rem;
+  background-color: rgb(55, 54, 54);
+  align-items: center;
+  display: flex;
 }
 
 /* Section 1 design */
@@ -268,4 +271,9 @@ h6 {
 
 p {
   padding: 0.5rem 1rem;
+}
+
+/* Section 4 Design */
+#first-side-container {
+  background-color: rgb(199, 199, 199);
 }
