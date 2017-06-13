@@ -399,6 +399,10 @@ p.classes {
     padding-top: 4rem;
   }
 
+  .mobile-top img {
+    height: 6rem;
+  }
+
   a.button {
     width: 95%;
     background-color: rgb(123, 123, 123);
@@ -500,6 +504,10 @@ p.classes {
 
   .footer-links {
     display: none;
+  }
+
+  p {
+    padding: 0;
   }
 
 }
