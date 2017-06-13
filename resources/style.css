@@ -3,6 +3,11 @@ font-family: 'Cabin', sans-serif;
 }
 
 /* Header formatting */
+
+.mobile-head {
+  display: none;
+}
+
 header {
   position: fixed;
   display: flex;
@@ -345,4 +350,156 @@ a.buttons:hover {
 h6,
 p.classes {
   color: rgb(123, 123, 123)
+}
+
+/* Mobile media queries */
+
+@media only screen and (max-width: 480px) {
+
+  .mobile-head {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  img.mobile-icon {
+    width: 2.5rem;
+  }
+
+  nav.desk-head,
+  .logo,
+  .title {
+    display: none;
+  }
+
+  img.top-container {
+    display: none;
+  }
+
+  div.top-container {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  h1 {
+    padding: 1rem 0;
+  }
+
+  span.title-text {
+    padding: 1rem 0 1.5rem 0;
+  }
+
+  section.top {
+    height: auto;
+    padding-top: 0;
+  }
+
+  section.mobile-top {
+    height: 180px;
+    background-color: rgb(123, 123, 123);
+    padding-top: 4rem;
+  }
+
+  a.button {
+    width: 95%;
+    background-color: rgb(123, 123, 123);
+  }
+
+  .second-container {
+    display: none;
+    margin: 0;
+  }
+
+  aside,
+  .side-containers,
+  .side-container {
+    border: none;
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+
+  .side-containers {
+    width: 100%;
+    text-align: center;
+  }
+
+  .side-container img {
+    width: 21.5rem;
+    padding: 1.5rem;
+    height: 15rem;
+  }
+
+  .side-container {
+    padding: 0;
+  }
+
+  .side-right {
+    padding: 0 1.5rem;
+    text-align: left;
+  }
+
+  #third-side-container {
+    background-color: rgb(251, 250, 250);
+  }
+
+  .major-offerings {
+    border-top: 1px solid lightgray;
+    padding-bottom: 1.5rem;
+  }
+
+  .major-selection {
+    flex-direction: column;
+  }
+
+  .majors {
+    width: auto;
+    height: auto;
+    margin: 0 1rem 0.5rem 1rem;
+    background-color: rgb(199, 199, 199);
+    color: rgb(55, 54, 54);
+  }
+
+  h3 {
+    padding: 1.5rem;
+  }
+
+  .majors img {
+    display: none;
+  }
+
+  .major h6 {
+    display: none;
+  }
+
+  .major p {
+    display: none;
+  }
+
+  .fourth-section-aside {
+    display: none;
+  }
+
+  img.second-picture {
+    display: none;
+  }
+
+  video.side-picture {
+    padding: 0;
+  }
+
+  h1.fourth-title {
+    border-top: 1px solid lightgray;
+    padding-bottom: 1.5rem;
+  }
+
+  .second-containers {
+    margin-right: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer-links {
+    display: none;
+  }
+
 }
